@@ -1,4 +1,4 @@
-### Instalação e Configuração
+### Instalação e Configuração Projeto
 
     1. Clone o repositório:
 
