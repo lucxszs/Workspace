@@ -4,7 +4,6 @@
 
 ```bash
 git clone https://github.com/lucxszs/Workspace.git
-cd dataprojectstarterkit
 ```
 
 2. Configure a versão correta do Python com `pyenv`:
