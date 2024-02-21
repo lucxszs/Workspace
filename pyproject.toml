@@ -1,2 +1,0 @@
-[tool.taskipy.tasks]
-Get-NetTCPConnection -LocalPort 8501 | Select-Object -ExpandProperty OwningProcess | ForEach-Object {Stop-Process -Id $_ -Force}
