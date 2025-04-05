@@ -1,0 +1,3 @@
+[tool.taskipy.tasks]
+run = "Get-NetTCPConnection -LocalPort 8501 | Select-Object -ExpandProperty OwningProcess | ForEach-Object {Stop-Process -Id $_ -Force}; run src/app.py"
+test = "Get-NetTCPConnection -LocalPort 8501 | Select-Object -ExpandProperty OwningProcess | ForEach-Object {Stop-Process -Id $_ -Force}; pytest test -v"
